@@ -1,0 +1,155 @@
+/* Mobile Styles */
+@media (max-width: 767px) {
+
+	/* Your CSS styles for mobile devices here */
+	header {
+		justify-content: space-between;
+		padding: 10px 10px;
+	}
+
+	.logo {
+		font-size: large;
+	}
+
+	section.hero {
+		text-align: center;
+		padding: 0px 10% 0px;
+		/* background: red; */
+	}
+
+	.navList li {
+		display: none;
+	}
+
+	section#about {
+		padding: 100px 5% 100px;
+		background: var(--second-bg-color);
+		justify-content: center;
+	}
+
+	.about-me > p {
+		width: 100%;
+		text-align: center;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.about-me h3,
+	.about-me p {
+		width: 390px;
+	}
+
+	.skills-tools {
+		width: 100%;
+		text-align: center;
+	}
+
+	section#services {
+		/* width: 100%; */
+		text-align: center;
+		align-items: center;
+		justify-content: center;
+		padding: 10px 5% 10px;
+		background: var(--bg-color);
+	}
+
+	.services .container {
+		width: 100%;
+		text-align: left;
+		display: flex;
+		align-items: center;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 20px;
+
+	}
+
+	.portfolio .container {
+		width: 100%;
+		padding: 0;
+		margin: 0;
+		flex-wrap: wrap;
+	}
+
+
+	/* footer section style */
+	section.footer {
+		padding: 100px 5% 100px;
+		/* background-color: #777; */
+		/* background: red; */
+
+		/* display: flex; */
+		/* flex-wrap: wrap; */
+		/* flex-direction: row; */
+		/* gap: 20px; */
+	}
+
+	.footer .container {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		gap: 20px;
+		padding: 0;
+		width: fit-content;
+	}
+
+	.footer .container .box {
+		width: 300px;
+		top: 0;
+		height: 200px;
+
+	}
+}
+
+/* Tablet Styles */
+@media (min-width: 768px) and (max-width: 1023px) {
+
+	/* Your CSS styles for tablet devices here */
+	header {
+		justify-content: space-between;
+		padding: 0 10px;
+	}
+
+	.navList li {
+		display: none;
+	}
+
+	section#services {
+		padding: 100px 20px;
+		/* padding: 10px 16% 10px; */
+		/* background: var(--second-bg-color); */
+		background: blue;
+		justify-content: center;
+	}
+
+	.services .container {
+		/* padding: 10px 16% 10px; */
+		/* width: 100%; */
+		text-align: left;
+		display: flex;
+		align-items: center;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 20px;
+	}
+
+	section#portfolio {
+		text-align: center;
+		padding: 100px 0;
+		background: var(--second-bg-color);
+	}
+
+	.portfolio .container {
+		width: 100%;
+		padding: 0;
+		margin: 0;
+		flex-wrap: wrap;
+	}
+
+	.footer {
+		background: yellow;
+	}
+}
